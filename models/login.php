@@ -1,5 +1,5 @@
 <?php
-require_once "../database.php";
+require_once '../helper/database.php';
 class Login
 {
     function check_login($id)
