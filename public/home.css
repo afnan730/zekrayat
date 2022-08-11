@@ -1,0 +1,29 @@
+.btn-outline-dark {
+  margin-right: 50px;
+
+  color: #324e65;
+  border-color: #324e65;
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #324e65;
+  border-color: #324e65;
+}
+.nav-link {
+  color: #324e65;
+  font-size: 20px;
+}
+.shadow {
+  box-shadow: 1p 2px 5px #ebebeb;
+}
+.welcome-user {
+  color: #324e65;
+  font-size: 20px;
+  margin-right: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.zekrayaBtn {
+  color: #324e65;
+  border-color: #324e65;
+}
