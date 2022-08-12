@@ -31,7 +31,7 @@ class User
             if ($key == "firstname" || $key == "lastname") {
                 if (is_numeric($value)) {
 
-                    $this->error = $this->error . "first name and last name can't be a number<br>";
+                    $this->error = $this->error . "first name and last name can't be a number<br>Please enter your real name<br> ";
                 }
             }
         }
