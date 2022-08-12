@@ -1,5 +1,5 @@
 <?php
-require_once '../helper/database.php';
+include_once '/xampp/htdocs/zekrayat/helper/database.php';
 
 class Comment
 {

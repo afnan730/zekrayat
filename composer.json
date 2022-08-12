@@ -1,0 +1,16 @@
+{
+    "name": "student/zekrayat",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+       
+    },
+    "authors": [
+        {
+            "name": "afnan730",
+            "email": "afnan6642@gmail.com"
+        }
+    ],
+    "require": {}
+}

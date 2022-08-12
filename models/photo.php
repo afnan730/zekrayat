@@ -1,5 +1,7 @@
 <?php
-require_once '../helper/database.php';
+include_once '/xampp/htdocs/zekrayat/helper/database.php';
+
+
 
 class Photo
 {
@@ -71,13 +73,21 @@ class Photo
 
     function getPhotos($userID)
     {
-        $query = "select * from photos where user_id='$userID' order by id desc";
-        $db = new Database();
-        $result = $db->read($query);
-        if ($result) {
-            return $result;
+
+        if (is_numeric($userID)) {
+            $query = "select * from photos where user_id='$userID' order by id desc";
+            $db = new Database();
+            $result = $db->read($query);
+
+            if ($result) {
+                // print_r($result);
+                // exit;
+                return $result;
+            } else {
+                return false;
+            }
         } else {
-            return false;
+            return "error";
         }
     }
 
@@ -119,6 +129,8 @@ class Photo
         if ($result) {
             return $result;
         } else {
+            // print_r("f");
+            // exit;
             return false;
         }
     }

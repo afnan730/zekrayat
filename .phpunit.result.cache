@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Warning":6,"ZekrayatTest::testFgetPhotos":4,"ZekrayatTest::testPh":4,"ZekrayatTest::testGetPhotos":3},"times":{"Warning":0.009,"ZekrayatTest::testFgetPhotos":0.009,"ZekrayatTest::testPh":0.012,"ZekrayatTest::testGetPhotos":0.011,"ZekrayatTest::testGetAlbum":0.002,"ZekrayatTest::testGetImages":0.014}}

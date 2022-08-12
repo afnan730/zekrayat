@@ -16,6 +16,7 @@ class Database
         $connection = $this->connect();
         $result = mysqli_query($connection, $query);
         if (!$result) {
+
             return false;
         } else {
             $data = false;

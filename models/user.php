@@ -1,12 +1,16 @@
 <?php
 
-require_once '../helper/database.php';
+include_once '/xampp/htdocs/zekrayat/helper/database.php';
 
 class User
 {
     private $error = "";
     public function validateNewUSer($data)
     {
+        // echo '<pre>';
+        // var_dump($data);
+        // echo '</pre>';
+        // exit;
 
         foreach ($data as $key => $value) {
             if (empty($value)) {
@@ -72,6 +76,7 @@ class User
 
     public function validateUSer($data)
     {
+
         foreach ($data as $key => $value) {
             if (empty($value)) {
                 $this->error = $this->error . $key . " is empty! <br>";
