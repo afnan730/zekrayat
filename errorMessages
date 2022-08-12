@@ -12,4 +12,4 @@ if a user enters wrong password, alert "wrong password" is displayed.
 
 
 When uploading photo:
-if user clicks Post button before choosing photo from his device, alert "Can't post empty image, please choose an image to upload."
+if user clicks Post button before choosing photo from his device, alert "please choose an image to upload." is displayed.
